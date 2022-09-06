@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Noto+Sans+TC&family=Nunito+Sans:ital,wght@1,200&family=Rubik+Iso&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../Imagenes/FondoOscuro.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    display:flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5{
+    color: antiquewhite;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2rem;
+}
+
+h1, h3{
+    font-size: 3rem;
+    text-align: center;
+    margin: 6rem auto;
+}
+
+
+nav{
+    padding: 40px 60px;  
+    align-self: center;
+}
+
+.etta__img--fluid{
+    width: 90%;
+}
+
+.nosotros__img--fluid{
+    width: 50%;
+}
+
+main section table tr th{
+    color: antiquewhite;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2rem;
+    line-height: 1,8rem;
+}
+
+main section table tr td{
+    color: antiquewhite;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1,8rem;
+    line-height: 1,8rem;
+}
+
+main section form label{
+    color: antiquewhite;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1,8rem;
+    line-height: 3rem; 
+}
+
+nav ul{
+    color: antiquewhite;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav ul li{
+    margin-right: 10px;
+    
+}
+
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2rem; 
+    line-height: 1,8rem;
+}
+
+nav ul li a:hover{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+section form label{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size:2rem; 
+    line-height: 1rem;
+}
+
+body nav a img{
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 5rem;
+}
+footer a img{
+    width: 100px;
+}
+
+.redes__titulo--md{
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 280px;
+    grid-template-rows: 280px 280px 280px 280px;
+    gap: 80px;
+    justify-content: center;
+}    
+
+.photo_resize{
+    max-height: 280px;
+    max-width: 280px;
+}
+
+.videos{
+    margin-top: 10rem;
+}
+.youtube{
+    width: 360px;
+    height: 215px;
+}
+
+.logo{
+    max-width: 95vw;
+}
+
+@media screen and (min-width: 480px){
+    .etta__img--fluid{
+        width: 80%;
+    }  
+}
+
+@media screen and (min-width: 768px){
+    .photos{
+        grid-template-columns: 280px 280px;
+        grid-template-rows: 280px 280px;
+        } 
+    .logo{
+        max-width: 100%;
+        }    
+    nav ul{
+            flex-direction: row;
+        }  
+    .etta__img--fluid{
+            width: 35%;
+        }  
+    .youtube{
+            width: 560px;
+            height: 315px;
+        }
+}
+
+@media screen and (min-width: 1024px){
+    
+}
