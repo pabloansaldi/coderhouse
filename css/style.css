@@ -77,12 +77,12 @@ nav ul li a{
     text-decoration: none;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2rem; 
-    line-height: 1,8rem;
+    line-height: 1.8rem;
 }
 
 nav ul li a:hover{
-    color: darkgoldenrod;
-    text-decoration: underline;
+    color: darkgoldenrod;  
+    transition: color 0.2s ease-in-out;
 }
 
 section form label{
@@ -141,6 +141,11 @@ footer a img{
 
 .logo{
     max-width: 95vw;
+}
+
+.scale:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 480px){
