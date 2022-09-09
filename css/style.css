@@ -38,24 +38,24 @@ nav{
     width: 50%;
 }
 
-main section table tr th{
+main table tr th{
     color: antiquewhite;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2rem;
-    line-height: 1,8rem;
+    line-height: 1.8rem;
 }
 
-main section table tr td{
+main table tr td{
     color: antiquewhite;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1,8rem;
-    line-height: 1,8rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
 }
 
 main section form label{
     color: antiquewhite;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1,8rem;
+    font-size: 1.8rem;
     line-height: 3rem; 
 }
 
@@ -72,7 +72,7 @@ nav ul li{
     
 }
 
-nav ul li a{
+.link{
     color: antiquewhite;
     text-decoration: none;
     font-family: 'Noto Sans TC', sans-serif;
@@ -80,11 +80,10 @@ nav ul li a{
     line-height: 1.8rem;
 }
 
-nav ul li a:hover{
+.link:hover{
     color: darkgoldenrod;  
     transition: color 0.2s ease-in-out;
 }
-
 section form label{
     color: antiquewhite;
     text-decoration: none;

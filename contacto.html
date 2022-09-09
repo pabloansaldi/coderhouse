@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Is Etta - Etta James Tribute</title>
     <link rel="shortcut icon" href="Imagenes/LOGO PNG.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,38 +16,47 @@
         </a>
         <ul>
             <li>
-                <a href="./fotosvideos.html">Fotos & Videos</a>
+                <a class="link" href="./fotosvideos.html">Fotos & Videos</a>
             </li>
             <li>
-                <a href="./proximosshows.html">Proximos Shows</a>
+                <a class="link" href="./proximosshows.html">Proximos Shows</a>
             </li>
             <li>
-                <a href="./nosotros.html">Nosotros</a>
+                <a class="link" href="./nosotros.html">Nosotros</a>
             </li>
             <li>
-                <a href="./contacto.html">Contacto</a>
+                <a class="link" href="./contacto.html">Contacto</a>
             </li>
     </nav>
     <main>
         <section>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4 center">
             <form action="envio.php">
-                <label for="nombre">Nombre y Apellido:</label>
-                <input type="text" id="nombre" placeholder="Ingrese su nombre">
+                <div class="form-group">
+                  <label for="nombre">Nombre y Apellido</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Lee Taemin">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="leetaemin@shinee.k">
+                  </div>
+                <div class="form-group">
+                    <label for="telefono">Telefono</label>
+                    <input type="text" class="form-control" id="telefono" placeholder="0303456">
+                  </div>
+                <div class="form-group">
+                  <label for="comentario">Dejanos un mensaje</label>
+                  <textarea class="form-control" id="comentario" rows="8"></textarea>
+                </div>
                 <br>
-                <label for="email:">Email:</label>
-                <input type="email" name="" id="email" placeholder="Ingrese su email" required>
+                <button class="btn btn-outline-light btn-lg ">Enviar</button>
                 <br>
-                <label for="tel">Teléfono:</label>
-                <input type="tel" name="" id="tel" placeholder="Ingrese su teléfono">
-                <br>
-                <label for="Comentario">Dejanos un mensaje</label>
-                <br>
-                <textarea name="" id="Comentario" cols="30" rows="10"></textarea>
-                <br>
-                <input type="reset" value="Cancelar">
-                <input type="submit" value="Enviar">
-                <br>
-            </form>
+              </form>
+            </div> 
+            <div class="col-4"></div>        
+        </div>  
         </section>
     </main>
     <footer class="redes center">
@@ -58,6 +68,6 @@
             <img src="./Imagenes/Logo Youtube.png" alt="mira nuestros videos">
         </a>
     </footer>
-
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

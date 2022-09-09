@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Is Etta - Etta James Tribute</title>
     <link rel="shortcut icon" href="Imagenes/LOGO PNG.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,50 +16,94 @@
         </a>
         <ul>
             <li>
-                <a href="./fotosvideos.html">Fotos & Videos</a>
+                <a class="link" href="./fotosvideos.html">Fotos & Videos</a>
             </li>
             <li>
-                <a href="./proximosshows.html">Proximos Shows</a>
+                <a class="link" href="./proximosshows.html">Proximos Shows</a>
             </li>
             <li>
-                <a href="./nosotros.html">Nosotros</a>
+                <a class="link" href="./nosotros.html">Nosotros</a>
             </li>
             <li>
-                <a href="./contacto.html">Contacto</a>
+                <a class="link" href="./contacto.html">Contacto</a>
             </li>
         </ul>
     </nav>
     <main>
         <h1>Proximos Shows</h1>
-        <section>
-            <table  border="3px" cellpadding="3px" cellspacing="3px">
-                <tr>
-                    <th>Lugar</th>
-                    <th>Fecha</th>
-                    <th>Hora</th>
-                </tr>
-                <tr>
-                    <td>Club Lucille</td>
-                    <td>20 de Agosto</td>
-                    <td>22 hs</td>
-                </tr>
-                <tr>
-                    <td>Boris Club</td>
-                    <td>27 de Agosto</td>
-                    <td>22 hs</td>
-                </tr>
-                <tr>
-                    <td>Carnal</td>
-                    <td>03 de Septiembre</td>
-                    <td>22 hs</td>
-                </tr>
-                <tr>
-                    <td>Thelonius</td>
-                    <td>10 de Septiembre</td>
-                    <td>22 hs</td>
-                </tr>
-            </table>
-        </section>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 center">
+                <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Lugar</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Hora</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>               
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">Club Lucille</a></td>
+                        <td>20 de Agosto</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>               
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">Boris Club</a></td>
+                        <td>27 de Agosto</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">Carnal</a></td>
+                        <td>03 de Septiembre</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">Thelonius</a></td>
+                        <td>10 de Septiembre</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">Chauvin (MDQ)</a></td>
+                        <td>17 de Septiembre</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">SpeedKing</a></td>
+                        <td>21 de Septiembre</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">Vorterix</a></td>
+                        <td>28 de Septiembre</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">Luna Park</a></td>
+                        <td>5 de Octubre</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">River Plate</a></td>
+                        <td>12 de Octubre</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank">Wembley</a></td>
+                        <td>19 de Octubre</td>
+                        <td>22 hs</td>
+                      </tr>
+                      <tr>                
+                        <td><a class="link" href="https://www.ticketek.com.ar/" target="_blank"></a>Budokan Arena</td>
+                        <td>26 de Octubre</td>
+                        <td>22:05 hs</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div> 
+            <div class="col-3"></div>        
+        </div>
+        
     </main>
     <footer class="redes center">
         <h5 class="redes__titulo--md">Seguinos En Nuestras Redes</h5>
@@ -69,6 +114,6 @@
             <img src="./Imagenes/Logo Youtube.png" alt="mira nuestros videos">
         </a>
     </footer>
-
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
